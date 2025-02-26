@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-3xl font-semibold font-custom text-teal-400 flex-shrink-0">
           <img
-            src="https://img.freepik.com/free-vector/gradient-carpet-cleaning-logo-design_23-2150713888.jpg" // Replace with your logo URL
+            src="https://seeklogo.com/images/C/creative-honey-logo-DF1AD5F440-seeklogo.com.png" // Replace with your logo URL
             alt="Chemical Cleaners Logo"
             className="w-16 h-16 object-cover" // Optional: Set a fixed width and height for the logo
           />

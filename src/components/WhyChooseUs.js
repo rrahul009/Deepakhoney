@@ -14,8 +14,8 @@ export default function WhyChooseUs() {
   return (
     <>
       <Head>
-        {/* <title>Why Choose Us | Your Company Name</title> */}
-        <meta name="description" content="Learn why you should choose us for your cleaning and chemical needs." />
+        {/* <title>Why Choose Us | Your Honey Brand</title> */}
+        <meta name="description" content="Learn why you should choose us for the finest honey products." />
       </Head>
 
       <div className="container mx-auto px-4 py-12 max-w-7xl">
@@ -23,101 +23,101 @@ export default function WhyChooseUs() {
         <div className="text-center mb-20">
           {/* <Image
             src="/images/logo.png"
-            alt="Your Company Logo"
+            alt="Your Honey Brand Logo"
             width={200}
             height={100}
             className="mx-auto mb-6"
           /> */}
-          <h1 className="text-5xl font-extrabold text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-green-400">
+          <h1 className="text-5xl font-extrabold text-gradient bg-clip-text text-transparent bg-gradient-to-r from-amber-600 to-orange-400">
             Why Choose Us?
           </h1>
           {/* <p className="text-xl mt-4 text-gray-700 max-w-3xl mx-auto">
-            Discover the core values and top reasons why [Your Company Name] stands out in the world of cleaning and chemical solutions.
+            Discover the core values and top reasons why [Your Honey Brand] stands out in the world of natural honey.
           </p> */}
         </div>
 
         {/* Key Benefits Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
-          {/* Top-Quality Products */}
+          {/* Pure & Natural Honey */}
           <div
             className={`bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out transform ${hoveredCard === 0 ? 'scale-105' : 'scale-100'} hover:shadow-xl`}
             onMouseEnter={() => handleMouseEnter(0)}
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="https://media.licdn.com/dms/image/v2/D4E12AQGCmaI3dz8dQQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1697191130963?e=1741219200&v=beta&t=wHnit66sNUJZimO5qRirGBqPi3DH0R8lpB5n0SSWXJQ"
-              alt="Top-Quality Products"
+              src="https://images.pexels.com/photos/8845105/pexels-photo-8845105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Pure & Natural Honey"
               width={400}
               height={250}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Top-Quality Products</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Pure & Natural Honey</h3>
               <p className="mt-2 text-gray-600">
-                We use only the highest quality eco-friendly products that ensure effective cleaning while being safe for your environment.
+                Our honey is 100% pure, unprocessed, and free from additives, ensuring you get the best nature has to offer.
               </p>
             </div>
           </div>
 
-          {/* Experienced Professionals */}
+          {/* Sustainably Sourced */}
           <div
             className={`bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out transform ${hoveredCard === 1 ? 'scale-105' : 'scale-100'} hover:shadow-xl`}
             onMouseEnter={() => handleMouseEnter(1)}
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="https://agricocleaningservices.co.uk/wp-content/uploads/2024/02/Agrico-Cleaning-Services-1-1.jpeg"
-              alt="Experienced Professionals"
+              src="https://images.pexels.com/photos/6588618/pexels-photo-6588618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Sustainably Sourced"
               width={400}
               height={250}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Experienced Professionals</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Sustainably Sourced</h3>
               <p className="mt-2 text-gray-600">
-                Our team is highly trained, experienced, and passionate about delivering exceptional cleaning results every time.
+                We are committed to sustainable beekeeping practices that protect the environment and support local communities.
               </p>
             </div>
           </div>
 
-          {/* Custom Solutions */}
+          {/* Wide Variety */}
           <div
             className={`bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out transform ${hoveredCard === 2 ? 'scale-105' : 'scale-100'} hover:shadow-xl`}
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="https://trinityharpercleaning.co.uk/wp-content/uploads/2022/06/Services-Office-Cleaner-2-SMALL.jpg"
-              alt="Custom Solutions"
+              src="https://images.pexels.com/photos/5865194/pexels-photo-5865194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Wide Variety"
               width={400}
               height={250}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Tailored Solutions</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Wide Variety</h3>
               <p className="mt-2 text-gray-600">
-                We offer personalized cleaning solutions to fit your unique needs, whether residential or commercial.
+                From wildflower to Manuka, we offer a diverse range of honey to suit every taste and need.
               </p>
             </div>
           </div>
 
-          {/* Eco-Friendly Practices */}
+          {/* Health Benefits */}
           <div
             className={`bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out transform ${hoveredCard === 3 ? 'scale-105' : 'scale-100'} hover:shadow-xl`}
             onMouseEnter={() => handleMouseEnter(3)}
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="https://etimg.etb2bimg.com/photo/95217315.cms"
-              alt="Eco-Friendly Practices"
+              src="https://images.pexels.com/photos/6072378/pexels-photo-6072378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Health Benefits"
               width={400}
               height={250}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Eco-Friendly Practices</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Health Benefits</h3>
               <p className="mt-2 text-gray-600">
-                We are committed to sustainability, using eco-friendly products and practices that reduce our environmental footprint.
+                Our honey is rich in antioxidants, vitamins, and minerals, making it a natural choice for boosting your health.
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function WhyChooseUs() {
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="https://ouicleandmv.com/wp-content/uploads/2021/09/shutterstock_1939394551.jpg"
+              src="https://images.pexels.com/photos/5430782/pexels-photo-5430782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Affordable Pricing"
               width={400}
               height={250}
@@ -138,86 +138,44 @@ export default function WhyChooseUs() {
             <div className="p-6">
               <h3 className="text-xl font-semibold text-gray-800">Affordable Pricing</h3>
               <p className="mt-2 text-gray-600">
-                Quality cleaning doesn't have to break the bank. Our rates are competitive with no hidden fees.
+                Enjoy premium-quality honey at competitive prices, with no compromise on quality.
               </p>
             </div>
           </div>
 
-          {/* Timely Service */}
+          {/* Fast Delivery */}
           <div
             className={`bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out transform ${hoveredCard === 5 ? 'scale-105' : 'scale-100'} hover:shadow-xl`}
             onMouseEnter={() => handleMouseEnter(5)}
             onMouseLeave={handleMouseLeave}
           >
             <img
-              src="https://thumbs.dreamstime.com/b/punctuality-concept-businesswoman-businessman-looking-50330901.jpg"
-              alt="Reliable Service"
+              src="https://images.pexels.com/photos/8140790/pexels-photo-8140790.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Fast Delivery"
               width={400}
               height={250}
               className="w-full h-64 object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">On-Time Service</h3>
+              <h3 className="text-xl font-semibold text-gray-800">Fast Delivery</h3>
               <p className="mt-2 text-gray-600">
-                We value your time. Our team ensures that we are always punctual and efficient, respecting your schedule.
+                We ensure timely delivery of your favorite honey products, straight to your doorstep.
               </p>
             </div>
           </div>
-
-          {/* Licensed & Insured */}
-          {/* <div
-            className={`bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out transform ${hoveredCard === 6 ? 'scale-105' : 'scale-100'} hover:shadow-xl`}
-            onMouseEnter={() => handleMouseEnter(6)}
-            onMouseLeave={handleMouseLeave}
-          >
-            <Image
-              src="/images/licensed-insured.jpg"
-              alt="Licensed & Insured"
-              width={400}
-              height={250}
-              className="w-full h-64 object-cover"
-            />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Licensed & Insured</h3>
-              <p className="mt-2 text-gray-600">
-                Our business is fully licensed and insured, offering you peace of mind that your property is in good hands.
-              </p>
-            </div>
-          </div> */}
-
-          {/* Proven Track Record */}
-          {/* <div
-            className={`bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 ease-in-out transform ${hoveredCard === 7 ? 'scale-105' : 'scale-100'} hover:shadow-xl`}
-            onMouseEnter={() => handleMouseEnter(7)}
-            onMouseLeave={handleMouseLeave}
-          >
-            <Image
-              src="/images/proven-track-record.jpg"
-              alt="Proven Track Record"
-              width={400}
-              height={250}
-              className="w-full h-64 object-cover"
-            />
-            <div className="p-6">
-              <h3 className="text-xl font-semibold text-gray-800">Proven Results</h3>
-              <p className="mt-2 text-gray-600">
-                We have built a reputation for consistent, high-quality service that our clients can always rely on.
-              </p>
-            </div>
-          </div> */}
         </div>
 
         {/* Call to Action Section */}
         <footer className="text-center mt-16">
-          <h2 className="text-3xl font-semibold text-gray-800">Ready for a Cleaner, Healthier Space?</h2>
-          <p className="mt-4 text-xl text-gray-600">Let's make a difference together! Contact us today for more information.</p>
+          <h2 className="text-3xl font-semibold text-gray-800">Ready to Taste the Difference?</h2>
+          <p className="mt-4 text-xl text-gray-600">Experience the finest honey nature has to offer. Order now!</p>
 
           <div className="mt-6">
             <a
               href="tel:[Your Contact Number]"
-              className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-all duration-200 ease-in-out"
+              className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-amber-700 transition-all duration-200 ease-in-out"
             >
-              Call Now
+              Order Now
             </a>
           </div>
         </footer>
