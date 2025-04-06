@@ -94,41 +94,41 @@ const Navbar = () => {
       <div
         className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden bg-teal-800 rounded-b-lg shadow-lg transition-all duration-300 ease-in-out`}
       >
-        <a
-          href="#home"
+        <Link
+          href="/"
           className="block text-white hover:text-teal-300 py-4 px-6 transition-all duration-300 font-medium"
           onClick={closeMenu}
         >
           Home
-        </a>
+        </Link>
         <a
-          href="#about"
+          href="/about"
           className="block text-white hover:text-teal-300 py-4 px-6 transition-all duration-300 font-medium"
           onClick={closeMenu}
         >
           About Us
         </a>
-        <a
-          href="#services"
+        <Link
+          href="/service"
           className="block text-white hover:text-teal-300 py-4 px-6 transition-all duration-300 font-medium"
           onClick={closeMenu}
         >
           Services
-        </a>
-        <a
-          href="#industries"
+        </Link>
+        <Link
+          href="/industries"
           className="block text-white hover:text-teal-300 py-4 px-6 transition-all duration-300 font-medium"
           onClick={closeMenu}
         >
           Industries Served
-        </a>
-        <a
-          href="#contact"
+        </Link>
+        <Link
+          href="/contact"
           className="block text-white hover:text-teal-300 py-4 px-6 transition-all duration-300 font-medium"
           onClick={closeMenu}
         >
           Contact
-        </a>
+        </Link>
         <a
           href="#quote"
           className="block text-white bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-lg font-semibold transition-all duration-300"
