@@ -49,12 +49,12 @@ const Navbar = () => {
           >
             Industries Served
           </Link>
-          <a
-            href="#contact"
+          <Link
+            href="/contact"
             className="text-white hover:text-teal-300 transition-all duration-300 font-medium"
           >
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* Get a Quote Button - positioned to the right */}
@@ -101,13 +101,13 @@ const Navbar = () => {
         >
           Home
         </Link>
-        <a
+        <Link
           href="/about"
           className="block text-white hover:text-teal-300 py-4 px-6 transition-all duration-300 font-medium"
           onClick={closeMenu}
         >
           About Us
-        </a>
+        </Link>
         <Link
           href="/service"
           className="block text-white hover:text-teal-300 py-4 px-6 transition-all duration-300 font-medium"
@@ -129,13 +129,13 @@ const Navbar = () => {
         >
           Contact
         </Link>
-        <a
+        {/* <a
           href="#quote"
           className="block text-white bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-lg font-semibold transition-all duration-300"
           onClick={closeMenu}
         > 
         Contact
-        </a>
+        </a> */}
       </div>
     </nav>
   );
