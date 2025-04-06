@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -11,7 +12,8 @@ const Navbar = () => {
     <nav className="text-white shadow-md p-3" style={{ backgroundColor: '#005f73' }}>
       <div className="max-w-7xl mx-auto flex items-center justify-between md:justify-center">
         {/* Logo */}
-        <div className="text-3xl font-semibold font-custom text-teal-400 flex-shrink-0">
+      <Link href="/">
+      <div className="text-3xl font-semibold font-custom text-teal-400 flex-shrink-0">
           <img
             src="https://seeklogo.com/images/C/creative-honey-logo-DF1AD5F440-seeklogo.com.png" // Replace with your logo URL
             alt="Chemical Cleaners Logo"
@@ -19,33 +21,34 @@ const Navbar = () => {
           />
           {/* <span className="ml-2 text-2xl font-bold text-white">Chemical Cleaners</span> */}
         </div>
+      </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-start justify-center flex-grow">
-          <a
-            href="#home"
+          <Link
+            href="/"
             className="text-white hover:text-teal-300 transition-all duration-300 font-medium"
           >
             Home
-          </a>
-          <a
-            href="#about"
+          </Link>
+          <Link
+            href="/about"
             className="text-white hover:text-teal-300 transition-all duration-300 font-medium"
           >
             About Us
-          </a>
-          <a
-            href="#services"
+          </Link>
+          <Link
+            href="/service"
             className="text-white hover:text-teal-300 transition-all duration-300 font-medium"
           >
             Services
-          </a>
-          <a
+          </Link>
+          <Link
             href="#industries"
             className="text-white hover:text-teal-300 transition-all duration-300 font-medium"
           >
             Industries Served
-          </a>
+          </Link>
           <a
             href="#contact"
             className="text-white hover:text-teal-300 transition-all duration-300 font-medium"
@@ -55,12 +58,13 @@ const Navbar = () => {
         </div>
 
         {/* Get a Quote Button - positioned to the right */}
-        <a
-          href="#quote"
-          className="hidden md:block bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 ml-auto"
-        >
-          Get a Quote
-        </a>
+        <button
+            type="submit"
+            className="px-6 py-3 bg-teal-600 text-white font-semibold rounded-md shadow-md hover:bg-teal-700 transition duration-300 transform hover:scale-105"
+            style={{ backgroundColor: '#005f73' }}
+          >
+            CONTACT US
+          </button>
 
         {/* Mobile Menu Icon */}
         <button
@@ -129,8 +133,8 @@ const Navbar = () => {
           href="#quote"
           className="block text-white bg-teal-500 hover:bg-teal-600 px-6 py-3 rounded-lg font-semibold transition-all duration-300"
           onClick={closeMenu}
-        >
-          Get a Quote
+        > 
+        Contact
         </a>
       </div>
     </nav>

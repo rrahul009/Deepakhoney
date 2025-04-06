@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -9,10 +10,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/" className="hover:text-teal-400">Home</a></li>
-              <li><a href="/about" className="hover:text-teal-400">About Us</a></li>
-              <li><a href="/services" className="hover:text-teal-400">Services</a></li>
-              <li><a href="/contact" className="hover:text-teal-400">Contact</a></li>
+              <li><Link href="/" className="hover:text-teal-400">Home</Link></li>
+              <li><Link href="/about" className="hover:text-teal-400">About Us</Link></li>
+              <li><Link href="/service" className="hover:text-teal-400">Services</Link></li>
+              <li><Link href="/contact" className="hover:text-teal-400">Contact</Link></li>
             </ul>
           </div>
 
@@ -20,9 +21,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li>Phone: +1 234 567 890</li>
-              <li>Email: info@cleaningservice.com</li>
-              <li>Address: 123 Clean St, Suite 400, City, Country</li>
+              <li>Phone: 9304830734</li>
+              {/* <li>Email: info@cleaningservice.com</li> */}
+              {/* <li>Address: 123 Clean St, Suite 400, City, Country</li> */}
             </ul>
           </div>
 
@@ -30,9 +31,9 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-6">
-              <a href="#" className="hover:text-teal-400">
+              <Link href="#" className="hover:text-teal-400">
                 <i className="fab fa-facebook-f text-2xl"></i>
-              </a>
+              </Link>
               <a href="#" className="hover:text-teal-400">
                 <i className="fab fa-twitter text-2xl"></i>
               </a>
