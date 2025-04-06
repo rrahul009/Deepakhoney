@@ -44,7 +44,7 @@ const Navbar = () => {
             Services
           </Link>
           <Link
-            href="#industries"
+            href="/industries"
             className="text-white hover:text-teal-300 transition-all duration-300 font-medium"
           >
             Industries Served
